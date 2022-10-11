@@ -12,7 +12,7 @@ module.exports = {
   devServer: {
     static: './dist',
   },
-    plugins: [
+  plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
@@ -20,7 +20,7 @@ module.exports = {
   optimization: {
     runtimeChunk: 'single',
   },
-    module: {
+  module: {
     rules: [
       {
         test: /\.css$/i,

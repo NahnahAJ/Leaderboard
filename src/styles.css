@@ -1,13 +1,14 @@
-*
-*::before,
+* *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 h1 {
   padding-left: 10rem;
 }
+
 .main {
   display: flex;
   justify-content: center;
@@ -23,6 +24,10 @@ h1 {
   justify-content: space-between;
 }
 
+li {
+  padding: 0.5rem;
+}
+
 .scores-tab {
   list-style: none;
   border: 1px solid black;
@@ -33,10 +38,6 @@ ul li:nth-child(even) {
   background-color: grey;
 }
 
-li {
-  padding: 0.5rem;
-}
-
 button {
   background-color: white;
   width: 8rem;
@@ -45,10 +46,11 @@ button {
 }
 
 form {
-    width: 15rem;
+  width: 15rem;
 }
 
-input[type=text], select {
+input[type=text],
+select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
