@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 - If it suits you, on your local computer, create a directory in your preferred location (e.g in the Desktop or Document directory)
 
 ### Install
-- To clone the project on your machine: Type `git clone hhttps://github.com/NahnahAJ/Leaderboard.git if your're using https with git or `git clone git@github.com:NahnahAJ/Leaderboard.git` if you prefer ssh and hit enter.
+- To clone the project on your machine: Type `git clone https://github.com/NahnahAJ/Leaderboard.git` if your're using https with git or `git clone git@github.com:NahnahAJ/Leaderboard.git` if you prefer ssh and hit enter.
 - To install webpack and project dependencies _(a packet manager is required)_:
 `npm install`
 - To build project files in development mode _(the destination folder is /dist)_:
