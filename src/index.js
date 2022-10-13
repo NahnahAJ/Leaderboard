@@ -32,6 +32,7 @@ formSubmit.addEventListener('submit', (event) => {
     console.log('Data', data);
   };
   sendScores();
+  formSubmit.reset();
 });
 
 // Retrieving and Displaying Scores from the API
