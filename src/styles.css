@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rajdhani&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+
 * *::before,
 *::after {
   box-sizing: border-box;
@@ -5,7 +8,23 @@
   padding: 0;
 }
 
+body {
+  background-color: white;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+nav p {
+  font-family: 'Silkscreen', cursive;
+  font-weight: 600;
+  background-image: url(../Images/xbox.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  padding-left: 1.5rem;
+}
+
 h1 {
+  background-color: rgba(0, 255, 255, 0.378);
   padding-left: 10rem;
 }
 
@@ -17,25 +36,43 @@ h1 {
 
 .recent-scores {
   width: 40%;
+  background-color: rgba(255, 255, 255, 0.771);
+  border-radius: 2rem;
 }
 
 .recent-header {
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
 }
 
 li {
   padding: 0.5rem;
+  font-family: 'Zilla Slab', serif;
+  text-align: justify;
+  font-size: 1.2rem;
 }
 
 .scores-tab {
   list-style: none;
-  border: 1px solid black;
   padding: 0;
+  height: 55vh;
+  overflow: scroll;
+}
+
+.add-score {
+  background-color: rgba(255, 255, 255, 0.771);
+  border-radius: 2rem;
+  padding: 2rem;
+  height: 15rem;
 }
 
 ul li:nth-child(even) {
-  background-color: grey;
+  background-color: rgba(255, 255, 255, 0.271);
+}
+
+ul li:nth-child(odd) {
+  background-color: rgba(0, 255, 255, 0.178);
 }
 
 button {
@@ -43,6 +80,7 @@ button {
   width: 8rem;
   padding: 0.5rem;
   float: right;
+  border-radius: 1rem;
 }
 
 form {
@@ -59,4 +97,46 @@ select {
   border: 1px solid black;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+#myVideo {
+  margin: 3rem 0;
+  height: 85vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+footer {
+  text-align: center;
+}
+
+@media only screen and (max-width: 425px) {
+  /* Small smartphones [325px -> 425px] */
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+
+  .recent-scores {
+    width: 100%;
+  }
+
+  .scores-tab {
+    height: 15vh;
+  }
+
+  h1 {
+    padding-left: 5rem;
+  }
 }

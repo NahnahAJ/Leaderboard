@@ -12,7 +12,8 @@
 - Webpack
 - LeaderBoard API
 
-## Live Demo (Not Available)
+## Live Demo
+[Live Demo Link](https://nahnahaj.github.io/Leaderboard/dist/)
 
 
 ## Getting Started
