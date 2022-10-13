@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-> In this project,  I will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules.
+> In this project,  I will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules while sending and receiving data from/to the Leaderboard API.
 
 
 ## Built With
@@ -10,6 +10,7 @@
 - Html
 - Css
 - Webpack
+- LeaderBoard API
 
 ## Live Demo (Not Available)
 
@@ -66,6 +67,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 - Microverse
+- LeaderBoard API
 
 ## 📝 License
 
